@@ -304,7 +304,7 @@ namespace MathUtils
         /// <param name="c">The linear coefficent C.</param>
         /// <param name="d">The constant offset D.</param>
         /// <returns>An array containing the four to zero real roots.</returns>
-        static double[] QuarticRootsD(double a, double b, double c, double d)
+        public static double[] QuarticRootsD(double a, double b, double c, double d)
         {
             double y1 = CubicRootD(-b, c * a - 4 * d, 4 * b * d - c * c - a * a * d);
             double R = Sqrt(0.25 * a * a - b + y1);

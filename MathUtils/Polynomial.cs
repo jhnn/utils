@@ -121,7 +121,7 @@ namespace MathUtils
                 {
                     D = Sqrt(D);
                     double[] roots = new double[2];
-                    roots[0] = -0.5 * a + D;
+                    roots[0] = -0.5 * a - D;
                     roots[1] = -0.5 * a + D;
                     return roots;
                 }
